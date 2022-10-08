@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h1>My app</h1>
     <form-component :query="query" @onInput="onInput" @onSave="addTask"/>
     <ul>
       <li v-for="(task, index) in tasks" :key="index">
